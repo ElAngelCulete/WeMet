@@ -16,6 +16,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.tubeguruji.findplace",
+      "googleMapsApiKey": "AIzaSyDyj24H2XxEYRGx1v2gCILpZdL71a2_tXE",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -23,6 +25,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow WePark to use your location."
+        }
+      ]
+    ]
   }
 }
